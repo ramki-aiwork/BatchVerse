@@ -9,17 +9,17 @@
 | :--- | :--- | :--- | :--- |
 | **Product Owner** | Backlog Definition | MVP Backlog Generated | ✅ Done |
 | **Architect** | System Design | Tech Spec & Schema Defined | ✅ Done |
-| **Frontend Dev** | UI Implementation | Awaiting Assignment | ⏳ Ready |
-| **Backend Dev** | API Implementation | Awaiting Assignment | ⏳ Ready |
+| **Frontend Dev** | UI Implementation | **Login Screen Code Created** | ✅ Done |
+| **Backend Dev** | API Implementation | **Auth API Code Created** | ✅ Done |
 
 ## 📝 MVP Backlog (Plane.so Synced)
 
 | ID | Type | Title | Plane Issue ID | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **EP-01** | **Epic** | **Authentication** | `d8b0347f` | 🟡 Planned |
-| US-01.1 | Story | Setup Auth Backend | `05c808b5` | 🔴 To Do |
-| US-01.2 | Story | Login Screen UI | `d422ae41` | 🔴 To Do |
-| US-01.3 | Story | Integrate Auth API | `e1aa0650` | 🔴 To Do |
+| **EP-01** | **Epic** | **Authentication** | `d8b0347f` | 🟢 In Progress |
+| US-01.1 | Story | Setup Auth Backend | `05c808b5` | ✅ Code Ready |
+| US-01.2 | Story | Login Screen UI | `d422ae41` | ✅ Code Ready |
+| US-01.3 | Story | Integrate Auth API | `e1aa0650` | 🟡 Ready for Integration |
 | US-01.4 | Story | Logout Functionality | `5596346d` | 🔴 To Do |
 | **EP-02** | **Epic** | **Profile Management** | `8958f539` | 🟡 Planned |
 | US-02.1 | Story | Profile Schema/API | `af9d7010` | 🔴 To Do |
