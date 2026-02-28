@@ -2,7 +2,7 @@
 // Works better in Expo/RN environments without polyfills
 
 // Using 127.0.0.1 for local dev (Simulator)
-const API_URL = 'http://127.0.0.1:7072/api';
+const API_URL = 'http://127.0.0.1:7073/api';
 
 export const login = async (email, password) => {
   try {
