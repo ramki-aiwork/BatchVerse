@@ -20,10 +20,10 @@ const LoginScreen = ({ navigation }) => {
 
     try {
       const data = await login(email, password);
-      console.log('Login successful:', data);
-      // Navigate to Home or Dashboard upon success
-      // navigation.replace('Home');
-      Alert.alert('Success', 'Login successful!');
+      // Data = { token: 'jwt...', user: { ... } }
+      
+      // Navigate to Profile and pass the token
+      navigation.navigate('Profile', { token: data.token });
     } catch (err) {
       console.error('Login failed:', err);
       setError(err.message || 'Login failed. Please try again.');
