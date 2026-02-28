@@ -71,7 +71,7 @@ const LoginScreen = ({ navigation }) => {
 
       <Button 
         mode="text" 
-        onPress={() => console.log('Navigate to Signup')}
+        onPress={() => navigation.navigate('Signup')}
         style={styles.textButton}
       >
         Don't have an account? Sign Up
